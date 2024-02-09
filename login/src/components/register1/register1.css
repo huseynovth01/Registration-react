@@ -1,0 +1,132 @@
+
+.container-1{
+    background-color: #f8f9fa;
+    max-width: 400px;
+    margin: 25px auto;
+    padding: 25px;
+    border: 1px solid #ccc;
+    border-radius: 17px;
+}
+.sign{
+    display: flex;
+}
+.enter{
+    display: flex;
+    gap: 10px;
+}
+.register{
+    font-weight: 300;
+    font-size: 17px;
+
+}
+.login{
+    font-weight: 300;
+    font-size: 17px;
+    color: #737373;
+}
+hr{
+    width: 60px;
+    margin-left: 1px; 
+}
+h2{
+    margin-left: 55%;
+    font-weight: 300;
+}
+h3{
+    margin-left: 15px;
+    margin-top: -1%;
+}
+p{
+    font-size: 15px;
+    width: 80%;
+    color: #737373;
+    margin-top: 30px;
+}
+.input{
+
+    padding-left: 30px;
+    position: relative;
+    width: 360px;
+    height: 30px;
+    border-radius: 4px;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+}
+
+.submit {
+    cursor: pointer; 
+    width: 390px;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    margin-left: 2px;
+    background-color: palevioletred;;
+    color: #ddd;
+    
+}
+
+.submit:hover {
+    background-color: #ddd;
+    transition: .2s all ease;
+    color: #060606;
+
+
+}
+
+
+a{
+    margin-left: 33%;
+    text-decoration: none;
+}
+.uptext{
+    display: flex;
+    justify-content: center;
+    font-weight: 100;
+}
+.google{
+    cursor: pointer; 
+    width: 390px;
+    height: 40px;
+    border-radius: 8px;
+    font-size: 20px;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    margin-left: 2px;
+    background-color: #ddd;
+    color: #060606;
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 5px;
+}
+.photo{
+    width: 40px;
+    height: 40px;
+    margin-top: 30px;
+}
+.photos{
+    display: flex;
+    gap: 5px;
+}
+.remember{
+    font-size: 13px;
+}
+
+.downtext{
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+h4{
+    font-weight: 400;
+    color: #737373;
+}
